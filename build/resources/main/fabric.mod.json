@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "grassmod",
+  "version": "1.0.0",
+
+  "name": " Tall Retro Grass",
+  "description": "Add's Tall Retro Grass.",
+  "authors": [
+    "Yojin"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+	"icon": "icon.png",
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+			"Yojin.grassmod.Grassmod"
+    ],
+		"beforeGameStart": [
+			"Yojin.grassmod.Grassmod"
+		],
+		"afterGameStart": [
+			"Yojin.grassmod.Grassmod"
+		],
+		"recipesReady": [
+			"Yojin.grassmod.GrassRecipe"
+
+
+		],
+		"initModels": [
+			"Yojin.grassmod.GrassModel"
+		],
+		"onInitialize": [
+			"Yojin.grassmod.GrassMod"
+		]
+	},
+  "mixins": [
+      "grassmod.mixins.json"
+  ],
+
+  "depends": {
+		"minecraft": "*",
+    "fabricloader": ">=0.15.5"
+  },
+  "suggests": {
+  }
+}
