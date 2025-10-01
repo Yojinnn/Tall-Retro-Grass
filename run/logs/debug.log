@@ -1,0 +1,387 @@
+[03:34:52] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 7.3_04 with Fabric Loader 0.15.6-bta.7
+[03:34:52] [main/DEBUG] (FabricLoader/GamePatch) Found game constructor: net.minecraft.client.Minecraft -> net/minecraft/client/Minecraft
+[03:34:52] [main/DEBUG] (FabricLoader/GamePatch) Patching game constructor <init>(Lnet/minecraft/client/render/window/GameWindow;Z)V
+[03:34:52] [main/DEBUG] (FabricLoader/Mappings) Loading mappings took 3 ms
+[03:34:52] [main/DEBUG] (FabricLoader/GamePatch) Patched 1 class
+[03:34:52] [main/DEBUG] (FabricLoader/Discovery) Mod discovery time: 9.1 ms
+[03:34:53] [main/DEBUG] (FabricLoader/Resolution) Mod resolution time: 20.1 ms
+[03:34:53] [main/INFO] (FabricLoader) Loading 8 mods:
+	- fabricloader 0.15.6-bta.7
+	- grassmod 1.0.0
+	- halplibe 5.2.4
+	- java 21
+	- legacy-lwjgl3 1.0.4
+	- minecraft 7.3.4
+	- mixinextras 0.3.2
+	- modmenu 3.0.0
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/Projects/Modding/BetterThanAdventure/Tall-Retro-Grass/build/resources/main to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/Projects/Modding/BetterThanAdventure/Tall-Retro-Grass/.gradle/loom-cache/remapped_mods/loom_mappings_7_3_04_layered_hash_31_v2/turniplabs/modmenu-bta/3.0.0/modmenu-bta-3.0.0.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/Projects/Modding/BetterThanAdventure/Tall-Retro-Grass/.gradle/loom-cache/remapped_mods/loom_mappings_7_3_04_layered_hash_31_v2/com/github/zarzelcow/legacy-lwjgl3/1.0.4/legacy-lwjgl3-1.0.4.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-fabric/0.3.2/33c53c7014a170a9cdfbc801f7a77a0eefd3bd00/mixinextras-fabric-0.3.2.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/Projects/Modding/BetterThanAdventure/Tall-Retro-Grass/.gradle/loom-cache/remapped_mods/loom_mappings_7_3_04_layered_hash_31_v2/turniplabs/halplibe/5.2.4/halplibe-5.2.4.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer Yojin.grassmod.Grassmod for mod grassmod (key beforeGameStart)
+[03:34:53] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer Yojin.grassmod.Grassmod for mod grassmod (key afterGameStart)
+[03:34:53] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer Yojin.grassmod.GrassMod for mod grassmod (key onInitialize)
+[03:34:53] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer Yojin.grassmod.GrassRecipe for mod grassmod (key recipesReady)
+[03:34:53] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer Yojin.grassmod.Grassmod for mod grassmod (key main)
+[03:34:53] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer Yojin.grassmod.GrassModel for mod grassmod (key initModels)
+[03:34:53] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer io.github.prospector.modmenu.impl.ModMenuApiImpl for mod modmenu (key modmenu)
+[03:34:53] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer io.github.prospector.modmenu.ModMenu for mod modmenu (key main)
+[03:34:53] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer turniplabs.halplibe.HalpLibe for mod halplibe (key main)
+[03:34:53] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer turniplabs.halplibe.HalpLibe for mod halplibe (key preLaunch)
+[03:34:53] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/novastorm93/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Error cleaning class output directory: .mixin.out
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Initialising Mixin Platform Manager
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Adding mixin platform agents for container ContainerHandleURI(file:///home/novastorm93/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.15.6-bta.7/52a6ad2bdcf416d00a753996fe8bd8cc21bbb2d1/fabric-loader-0.15.6-bta.7.jar)
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///home/novastorm93/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.15.6-bta.7/52a6ad2bdcf416d00a753996fe8bd8cc21bbb2d1/fabric-loader-0.15.6-bta.7.jar)
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///home/novastorm93/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.15.6-bta.7/52a6ad2bdcf416d00a753996fe8bd8cc21bbb2d1/fabric-loader-0.15.6-bta.7.jar)
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///home/novastorm93/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.15.6-bta.7/52a6ad2bdcf416d00a753996fe8bd8cc21bbb2d1/fabric-loader-0.15.6-bta.7.jar)
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///home/novastorm93/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.15.6-bta.7/52a6ad2bdcf416d00a753996fe8bd8cc21bbb2d1/fabric-loader-0.15.6-bta.7.jar)
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///home/novastorm93/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.15.6-bta.7/52a6ad2bdcf416d00a753996fe8bd8cc21bbb2d1/fabric-loader-0.15.6-bta.7.jar)]
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///home/novastorm93/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.15.6-bta.7/52a6ad2bdcf416d00a753996fe8bd8cc21bbb2d1/fabric-loader-0.15.6-bta.7.jar)]
+[03:34:53] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Mixin config mixins.modmenu.json does not specify "minVersion" property
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/Projects/Modding/BetterThanAdventure/Tall-Retro-Grass/build/classes/java/main to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/Projects/Modding/BetterThanAdventure/Tall-Retro-Grass/build/resources/main to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/fabric-loom/7.3_04/loom.mappings.7_3_04.layered+hash.31-v2/mappings.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/33.0.0-jre/161ba27964a62f241533807a46b8711b13c1d94b/guava-33.0.0-jre.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-1.2-api/2.20.0/689151374756cb809cb029f2501015bdc7733179/log4j-1.2-api-2.20.0.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-assimp/3.3.4/4651577de25afb21511c4b39e1ee3002ab1cad5d/lwjgl-assimp-3.3.4.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-assimp/3.3.4/65a7534e8a97b340c5e9716e15339b2b8964d656/lwjgl-assimp-3.3.4-natives-windows.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-assimp/3.3.4/711f816e22bbf89b27455a11a3871a370748b0f8/lwjgl-assimp-3.3.4-natives-linux.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.4/7e46ecdec85db8738053cfde1414352cd62dab74/lwjgl-glfw-3.3.4.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.4/370ef92d15819a123c643dd2b0fc3a2d40bb263c/lwjgl-glfw-3.3.4-natives-windows.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.4/91e3d4b56d6d1369ef107b9d7801c9f38125c590/lwjgl-glfw-3.3.4-natives-linux.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.4/9b74d3ea380c83353d42af43ad9659e04dabe84a/lwjgl-openal-3.3.4.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.4/c4de8af803aacda71044418095a71cd63b569a15/lwjgl-openal-3.3.4-natives-windows.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.4/45189277b5ac64b849de7293e8b1ef2cf2082102/lwjgl-openal-3.3.4-natives-linux.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.4/2852ac7d9f6fc71349f1ce28e2708ff1977f18af/lwjgl-opengl-3.3.4.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.4/f7ca4e75573a9ce83075bd86bc8a3e49ff106696/lwjgl-opengl-3.3.4-natives-windows.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.4/789df76d2e3da55349d858dfb81442149af7c7f4/lwjgl-opengl-3.3.4-natives-linux.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.4/5821735d5ef23f6da8542887344e57eb181b7cac/lwjgl-stb-3.3.4.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.4/8310e565463ec8d369528e8b26a9b1518d079a01/lwjgl-stb-3.3.4-natives-windows.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.4/dfc129f009495e6effe8a023d7c3f9cf519e86e3/lwjgl-stb-3.3.4-natives-linux.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.4/b86c3e4832426e8a6b466013b7cb34b40e9ce956/lwjgl-3.3.4.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.4/dd0927c1348cdcd9573fa24b7278ec1ac2bb0a76/lwjgl-3.3.4-natives-windows.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.4/a7ccba1d3f2fef214943e74335a80cc65d04e49/lwjgl-3.3.4-natives-linux.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-fabric/0.3.2/33c53c7014a170a9cdfbc801f7a77a0eefd3bd00/mixinextras-fabric-0.3.2.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/net.fabricmc/dev-launch-injector/0.2.1+build.8/da8bef7e6e2f952da707f282bdb46882a0fce5e3/dev-launch-injector-0.2.1+build.8.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.5/5150b9c2951f0fde987ce9c33496e26add1de224/launchwrapper-1.5.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.5/6065cc95c661255349c1d0756657be17c29a4fd3/jopt-simple-4.5.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/com.github.Better-than-Adventure/legacy-lwjgl3/1.0.5/197b169ea79d3bc50547bc3209a39cdd5176770b/legacy-lwjgl3-1.0.5.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/objects/client/43db9b498cb67058d2e12d394e6507722e71bb45/43db9b498cb67058d2e12d394e6507722e71bb45/client-43db9b498cb67058d2e12d394e6507722e71bb45.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.2/c4a06a64e650562f30b7bf9aaec1bfed43aca12b/failureaccess-1.0.2.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.41.0/8be6df7f1e9bccb19f8f351b3651f0bac2f5e0c/checker-qual-3.41.0.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.23.0/43a27853b6c7d54893e0b1997c2c778c347179eb/error_prone_annotations-2.23.0.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.29.2-GA/6c32028609e5dd4a1b78e10fbcd122b09b3928b1/javassist-3.29.2-GA.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/Projects/Modding/BetterThanAdventure/Tall-Retro-Grass/.gradle/loom-cache/remapped_mods/loom_mappings_7_3_04_layered_hash_31_v2/turniplabs/halplibe/5.2.4/halplibe-5.2.4.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/Projects/Modding/BetterThanAdventure/Tall-Retro-Grass/.gradle/loom-cache/remapped_mods/loom_mappings_7_3_04_layered_hash_31_v2/turniplabs/modmenu-bta/3.0.0/modmenu-bta-3.0.0.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/Projects/Modding/BetterThanAdventure/Tall-Retro-Grass/.gradle/loom-cache/remapped_mods/loom_mappings_7_3_04_layered_hash_31_v2/com/github/zarzelcow/legacy-lwjgl3/1.0.4/legacy-lwjgl3-1.0.4.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.20.0/8f15415b022a25b473e8e16c28ae913186ffb9c4/jline-reader-3.20.0.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Knot) Adding /home/novastorm93/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.20.0/d0ddcc708ddf527a3454c941b7b9225cc83a15ff/jline-terminal-3.20.0.jar to classpath.
+[03:34:53] [main/DEBUG] (FabricLoader/Entrypoint) Iterating over entrypoint 'preLaunch'
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Preparing mixins for MixinEnvironment[DEFAULT]
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Selecting config grassmod.mixins.json
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Selecting config mixins.modmenu.json
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Remapping refMap modmenu-bta-refmap.json using remapper chain
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Selecting config mixinextras.init.mixins.json
+[03:34:53] [main/DEBUG] (FabricLoader/MixinExtras|Service) com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2) is taking over from null
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Selecting config halplibe.mixins.json
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Remapping refMap halplibe-refmap.json using remapper chain
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Preparing grassmod.mixins.json (2)
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Preparing mixins.modmenu.json (8)
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Preparing mixinextras.init.mixins.json (0)
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Preparing halplibe.mixins.json (22)
+[03:34:53] [main/INFO] (halplibe) Config file name: halplibe.cfg
+[03:34:53] [main/INFO] (halplibe) Config file path: /home/novastorm93/Projects/Modding/BetterThanAdventure/Tall-Retro-Grass/run/config/halplibe.cfg
+[03:34:53] [main/DEBUG] (FabricLoader/GameProvider) Launch arguments: [--assetIndex, 7.3_04-pre-1.6, --assetsDir, /home/novastorm93/.gradle/caches/fabric-loom/assets, --accessToken, FabricMC, --version, Fabric, --versionType, Fabric, --gameDir, /home/novastorm93/Projects/Modding/BetterThanAdventure/Tall-Retro-Grass/run]
+[03:34:53] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Mixing MinecraftAccessor from mixins.modmenu.json into net.minecraft.client.Minecraft
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Renaming @Invoker method getOS()Lnet/minecraft/core/enums/EnumOS; to getOS$modmenu_$md$72b016$0 in mixins.modmenu.json:MinecraftAccessor from mod modmenu
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Mixing MinecraftMixin from halplibe.mixins.json into net.minecraft.client.Minecraft
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:MinecraftMixin from mod halplibe->@Inject::recipeEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:MinecraftMixin from mod halplibe->@Inject::recipeEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:MinecraftMixin from mod halplibe->@Inject::recipeEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:MinecraftMixin from mod halplibe->@Inject::beforeGameStartEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:MinecraftMixin from mod halplibe->@Inject::beforeGameStartEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:MinecraftMixin from mod halplibe->@Inject::beforeGameStartEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:MinecraftMixin from mod halplibe->@Inject::afterGameStartEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:MinecraftMixin from mod halplibe->@Inject::afterGameStartEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:MinecraftMixin from mod halplibe->@Inject::afterGameStartEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:MinecraftMixin from mod halplibe->@Inject::afterBlockInitEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:MinecraftMixin from mod halplibe->@Inject::afterBlockInitEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:MinecraftMixin from mod halplibe->@Inject::afterBlockInitEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:MinecraftMixin from mod halplibe->@Inject::afterItemInitEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:MinecraftMixin from mod halplibe->@Inject::afterItemInitEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:MinecraftMixin from mod halplibe->@Inject::afterItemInitEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:MinecraftMixin from mod halplibe->@Inject::printWrongJavaVersionInfo(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinGuiMainMenu from mixins.modmenu.json into net.minecraft.client.gui.ScreenMainMenu
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiMainMenu from mod modmenu->@Inject::modmenu$drawMenuButton(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiMainMenu from mod modmenu->@Inject::modmenu$drawMenuButton(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiMainMenu from mod modmenu->@Inject::modmenu$drawMenuButton(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiMainMenu from mod modmenu->@Inject::modmenu$onActionPerformed(Lnet/minecraft/client/gui/ButtonElement;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiMainMenu from mod modmenu->@Inject::modmenu$onActionPerformed(Lnet/minecraft/client/gui/ButtonElement;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiMainMenu from mod modmenu->@Inject::modmenu$onActionPerformed(Lnet/minecraft/client/gui/ButtonElement;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinGuiIngameMenu from mixins.modmenu.json into net.minecraft.client.gui.ScreenPause
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiIngameMenu from mod modmenu->@Inject::modmenu$drawMenuButton(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiIngameMenu from mod modmenu->@Inject::modmenu$drawMenuButton(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiIngameMenu from mod modmenu->@Inject::modmenu$drawMenuButton(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiIngameMenu from mod modmenu->@Inject::modmenu$onActionPerformed(Lnet/minecraft/client/gui/ButtonElement;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiIngameMenu from mod modmenu->@Inject::modmenu$onActionPerformed(Lnet/minecraft/client/gui/ButtonElement;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiIngameMenu from mod modmenu->@Inject::modmenu$onActionPerformed(Lnet/minecraft/client/gui/ButtonElement;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[03:34:53] [main/INFO] (net.minecraft.client.Minecraft) LWJGL version = 3.3.3-snapshot
+[03:34:53] [main/DEBUG] (FabricLoader/Entrypoint) Iterating over entrypoint 'main'
+[03:34:53] [main/INFO] (halplibe) Config file name: grassmod.cfg
+[03:34:53] [main/INFO] (halplibe) Config file path: /home/novastorm93/Projects/Modding/BetterThanAdventure/Tall-Retro-Grass/run/config/grassmod.cfg
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Mixing accessors.BlockAccessor from halplibe.mixins.json into net.minecraft.core.block.Block
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Mixing accessors.BlocksAccessor from halplibe.mixins.json into net.minecraft.core.block.Blocks
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Renaming @Accessor method hasInit()Z to hasInit$halplibe_$md$72b016$0 in halplibe.mixins.json:accessors.BlocksAccessor from mod halplibe
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Renaming @Invoker method cacheBlock(Lnet/minecraft/core/block/Block;)V to cacheBlock$halplibe_$md$72b016$1 in halplibe.mixins.json:accessors.BlocksAccessor from mod halplibe
+[03:34:53] [main/INFO] (grassmod) Blocks initialized.
+[03:34:53] [main/INFO] (grassmod) Grass Mod initialized.
+[03:34:53] [main/INFO] (halplibe) HalpLibe initialized.
+[03:34:53] [main/DEBUG] (FabricLoader/Entrypoint) No subscribers for entrypoint 'client'
+[03:34:53] [main/INFO] (net.minecraft.core.net.CertificateHelper) Using bundled let's encrypt certificates
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Mixing MobCreeperMixin from halplibe.mixins.json into net.minecraft.core.entity.monster.MobCreeper
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:MobCreeperMixin from mod halplibe->@Inject::dropItemsOnDeath(Lnet/minecraft/core/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:MobCreeperMixin from mod halplibe->@Inject::dropItemsOnDeath(Lnet/minecraft/core/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:MobCreeperMixin from mod halplibe->@Inject::dropItemsOnDeath(Lnet/minecraft/core/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Mixing ItemToolHoeMixin from grassmod.mixins.json into net.minecraft.core.item.tool.ItemToolHoe
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) grassmod.mixins.json:ItemToolHoeMixin from mod grassmod->@Inject::curseTheBTADevs(Lnet/minecraft/core/world/World;Lnet/minecraft/core/item/ItemStack;IIIILnet/minecraft/core/util/helper/Side;Lnet/minecraft/core/entity/Mob;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) grassmod.mixins.json:ItemToolHoeMixin from mod grassmod->@Inject::curseTheBTADevs(Lnet/minecraft/core/world/World;Lnet/minecraft/core/item/ItemStack;IIIILnet/minecraft/core/util/helper/Side;Lnet/minecraft/core/entity/Mob;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) grassmod.mixins.json:ItemToolHoeMixin from mod grassmod->@Inject::curseTheBTADevs(Lnet/minecraft/core/world/World;Lnet/minecraft/core/item/ItemStack;IIIILnet/minecraft/core/util/helper/Side;Lnet/minecraft/core/entity/Mob;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Mixing ItemDyeMixin from grassmod.mixins.json into net.minecraft.core.item.ItemDye
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Mixing GameSettingsMixin from halplibe.mixins.json into net.minecraft.client.option.GameSettings
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Renaming synthetic method lambda$initOptions$0(Lnet/minecraft/client/option/GameSettings;Lturniplabs/halplibe/util/OptionsInitEntrypoint;)V to md72b016$halplibe$lambda$initOptions$0$0 in halplibe.mixins.json:GameSettingsMixin from mod halplibe
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:GameSettingsMixin from mod halplibe->@Inject::initOptions(Lnet/minecraft/client/Minecraft;Ljava/io/File;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:GameSettingsMixin from mod halplibe->@Inject::initOptions(Lnet/minecraft/client/Minecraft;Ljava/io/File;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:GameSettingsMixin from mod halplibe->@Inject::initOptions(Lnet/minecraft/client/Minecraft;Ljava/io/File;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[03:34:53] [main/DEBUG] (FabricLoader/Mixin) Mixing AtlasStitcherMixin from halplibe.mixins.json into net.minecraft.client.render.texture.stitcher.AtlasStitcher
+[03:34:54] [main/INFO] (net.minecraft.client.Minecraft) Java Version: 21.0.8
+[03:34:54] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: If the game crashes with a message similar to 
+"Inconsistency detected by ld.so: dl-lookup.c: 111: check_match: Assertion `version->filename == NULL || ! _dl_name_match_p (version->filename, map)' failed!", 
+Either use Java 8 or 17 from Eclipse Adoptium!
+[03:34:54] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: GLFW Init
+[03:34:54] [main/INFO] (net.minecraft.client.Minecraft) Resolution: 854 x 480
+[03:34:54] [main/DEBUG] (FabricLoader/Mixin) Mixing I18nMixin from halplibe.mixins.json into net.minecraft.core.lang.I18n
+[03:34:54] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:I18nMixin from mod halplibe->@Inject::addHalplibeModLangFiles(Ljava/lang/String;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[03:34:54] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:I18nMixin from mod halplibe->@Inject::addHalplibeModLangFiles(Ljava/lang/String;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[03:34:54] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:I18nMixin from mod halplibe->@Inject::addHalplibeModLangFiles(Ljava/lang/String;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[03:34:54] [main/DEBUG] (FabricLoader/Mixin) Mixing LanguageAccessor from mixins.modmenu.json into net.minecraft.core.lang.Language
+[03:34:54] [main/DEBUG] (FabricLoader/Mixin) Mixing accessors.LanguageAccessor from halplibe.mixins.json into net.minecraft.core.lang.Language
+[03:34:54] [main/DEBUG] (FabricLoader/Mixin) Unexpected: Registered method getEntries()Ljava/util/Properties; in net.minecraft.core.lang.Language was not merged
+[03:34:54] [main/INFO] (net.minecraft.core.lang.I18n) 2944 Translation Keys
+[03:34:54] [main/DEBUG] (halplibe) Current lang: en_US
+[03:34:54] [main/DEBUG] (halplibe) grassmod contains 1 language files.
+[03:34:54] [main/DEBUG] (halplibe) [/lang/grassmod/en_US.lang]
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) modmenu contains 11 language files.
+[03:34:54] [main/DEBUG] (halplibe) [/lang/modmenu/bg_BG.lang, /lang/modmenu/de_DE.lang, /lang/modmenu/en_US.lang, /lang/modmenu/et_EE.lang, /lang/modmenu/fi_FI.lang, /lang/modmenu/fr_FR.lang, /lang/modmenu/ja_JP.lang, /lang/modmenu/pt_BR.lang, /lang/modmenu/ru_RU.lang, /lang/modmenu/zh_CN.lang, /lang/modmenu/zh_TW.lang]
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) minecraft contains 0 language files.
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) fabricloader contains 0 language files.
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) java contains 0 language files.
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) legacy-lwjgl3 contains 0 language files.
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) mixinextras contains 0 language files.
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) halplibe contains 1 language files.
+[03:34:54] [main/DEBUG] (halplibe) [/lang/halplibe/en_US.lang]
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/DEBUG] (halplibe) []
+[03:34:54] [main/INFO] (net.minecraft.client.render.OpenGLHelper) 4.6 (Compatibility Profile) Mesa 25.2.3-arch1.2
+[03:34:54] [main/INFO] (net.minecraft.client.render.OpenGLHelper) AMD
+[03:34:54] [main/INFO] (net.minecraft.client.render.OpenGLHelper) AMD Radeon RX 6700 XT (radeonsi, navi22, LLVM 20.1.8, DRM 3.64, 6.16.8-arch2-1)
+[03:34:54] [main/INFO] (net.minecraft.client.render.OpenGLHelper) GL_ARB_framebuffer_object: true
+[03:34:54] [main/INFO] (net.minecraft.client.render.OpenGLHelper) GL_ARB_occlusion_query: true
+[03:34:54] [main/INFO] (net.minecraft.client.render.OpenGLHelper) GL_NV_fog_distance: true
+[03:34:54] [main/INFO] (net.minecraft.client.render.OpenGLHelper) Enable Shaders: true
+[03:34:54] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: MultiDraw disabled, using legacy terrain renderer
+[03:34:54] [main/INFO] (net.minecraft.client.render.shader.ShadersRenderer) Reloading Shaders...
+[03:34:54] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinTexturePacks from mixins.modmenu.json into net.minecraft.client.render.texturepack.TexturePack
+[03:34:54] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinTexturePacks from mod modmenu->@Inject::modmenu$onGetResource(Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[03:34:54] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinTexturePacks from mod modmenu->@Inject::modmenu$onGetResource(Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[03:34:54] [main/DEBUG] (FabricLoader/Mixin) Mixing accessors.WeightedRandomBagAccessor from halplibe.mixins.json into net.minecraft.core.WeightedRandomBag
+[03:34:54] [main/DEBUG] (FabricLoader/Mixin) Mixing accessors.WeightedRandomBagEntryAccessor from halplibe.mixins.json into net.minecraft.core.WeightedRandomBag$Entry
+[03:34:54] [main/INFO] (net.minecraft.client.Minecraft) Drawing Loading Screen...
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) Mixing accessors.EntityFXAccessor from halplibe.mixins.json into net.minecraft.client.entity.particle.Particle
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) Mixing models.BlockModelDispatcherMixin from halplibe.mixins.json into net.minecraft.client.render.block.model.BlockModelDispatcher
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) Renaming synthetic method lambda$addQueuedModels$0(Lturniplabs/halplibe/util/ModelEntrypoint;)V to md72b016$halplibe$lambda$addQueuedModels$0$0 in halplibe.mixins.json:models.BlockModelDispatcherMixin from mod halplibe
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:models.BlockModelDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:models.BlockModelDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:models.BlockModelDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[03:34:55] [main/INFO] (grassmod) Block Models initialized.
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) Mixing models.ItemModelDispatcherMixin from halplibe.mixins.json into net.minecraft.client.render.item.model.ItemModelDispatcher
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) Renaming synthetic method lambda$addQueuedModels$0(Lturniplabs/halplibe/util/ModelEntrypoint;)V to md72b016$halplibe$lambda$addQueuedModels$0$0 in halplibe.mixins.json:models.ItemModelDispatcherMixin from mod halplibe
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:models.ItemModelDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:models.ItemModelDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:models.ItemModelDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) Mixing models.EntityRenderDispatcherMixin from halplibe.mixins.json into net.minecraft.client.render.EntityRenderDispatcher
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) Renaming synthetic method lambda$addQueuedModels$0(Lturniplabs/halplibe/util/ModelEntrypoint;)V to md72b016$halplibe$lambda$addQueuedModels$0$0 in halplibe.mixins.json:models.EntityRenderDispatcherMixin from mod halplibe
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:models.EntityRenderDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:models.EntityRenderDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:models.EntityRenderDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) Mixing models.TileEntityRendererDispatcherMixin from halplibe.mixins.json into net.minecraft.client.render.TileEntityRenderDispatcher
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) Renaming synthetic method lambda$addQueuedModels$0(Lturniplabs/halplibe/util/ModelEntrypoint;)V to md72b016$halplibe$lambda$addQueuedModels$0$0 in halplibe.mixins.json:models.TileEntityRendererDispatcherMixin from mod halplibe
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:models.TileEntityRendererDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:models.TileEntityRendererDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:models.TileEntityRendererDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[03:34:55] [main/DEBUG] (FabricLoader/Mixin) Mixing accessors.EntityFireflyFXAccessor from halplibe.mixins.json into net.minecraft.client.entity.particle.ParticleFirefly
+[03:34:55] [main/INFO] (net.minecraft.client.Minecraft) Drawing Loading Screen...
+[03:34:55] [main/INFO] (net.minecraft.client.Minecraft) Initializing input
+[03:34:55] [main/INFO] (net.minecraft.client.input.InputHandler) 0 controllers found!
+[03:34:55] [main/INFO] (net.minecraft.client.Minecraft) Input done!
+[03:34:55] [main/INFO] (net.minecraft.client.Minecraft) Setting up OpenGL values...
+[03:34:55] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: 
+[03:34:55] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Starting up SoundSystem...
+[03:34:55] [Thread-1/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Initializing LWJGL OpenAL
+[03:34:55] [Thread-1/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]:     (The LWJGL3 binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[03:34:55] [Thread-1/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: OpenAL initialized.
+[03:34:56] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: 
+[03:34:56] [main/INFO] (net.minecraft.client.Minecraft) Drawing Loading Screen...
+[03:34:56] [main/INFO] (net.minecraft.client.render.customatlas.CustomAtlasHandler) Active Texture Packs: 
+[03:34:56] [main/INFO] (net.minecraft.client.render.TextureManager) Initializing Dynamic Textures...
+[03:34:56] [main/INFO] (net.minecraft.client.render.texture.Texture) Generating Mipmaps...
+[03:34:56] [main/INFO] (net.minecraft.client.render.texture.Texture) Generating Mipmaps...
+[03:34:56] [main/INFO] (net.minecraft.client.render.texture.Texture) Generating Mipmaps...
+[03:34:56] [main/INFO] (net.minecraft.client.render.texture.Texture) Generating Mipmaps...
+[03:34:56] [main/DEBUG] (FabricLoader/Mixin) Mixing GuiButtonAccessor from mixins.modmenu.json into net.minecraft.client.gui.ButtonElement
+[03:34:56] [main/DEBUG] (FabricLoader/Mixin) Mixing TextFieldEditorAccessor from mixins.modmenu.json into net.minecraft.client.gui.text.TextFieldEditor
+[03:34:56] [main/INFO] (net.minecraft.client.Minecraft) Drawing Loading Screen...
+[03:34:56] [main/INFO] (net.minecraft.client.Minecraft) Initializing Renderer...
+[03:34:56] [main/INFO] (net.minecraft.client.Minecraft) Starting Resource Download Thread...
+[03:34:56] [Resource Download/INFO] (net.minecraft.client.net.thread.ThreadDownloadResources) Downloading sounds...
+[03:34:56] [main/INFO] (net.minecraft.core.data.DataLoader) Registered 23 recipes from /recipes/blast_furnace.json
+[03:34:56] [main/INFO] (net.minecraft.core.data.DataLoader) Registered 24 recipes from /recipes/furnace.json
+[03:34:56] [main/INFO] (net.minecraft.core.data.DataLoader) Registered 6 recipes from /recipes/trommel.json
+[03:34:56] [main/INFO] (net.minecraft.core.data.DataLoader) Registered 487 recipes from /recipes/workbench.json
+[03:34:56] [main/INFO] (grassmod) Recipes initialized.
+[03:34:56] [main/INFO] (net.minecraft.client.Minecraft) 32 item groups.
+[03:34:56] [main/INFO] (net.minecraft.client.Minecraft) 544 recipes in 8 groups in 2 namespaces.
+[03:34:56] [main/INFO] (net.minecraft.client.Minecraft) Drawing Loading Screen...
+[03:34:56] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Change to Windowed
+[03:34:56] [main/INFO] (net.minecraft.client.render.shader.ShadersRenderer) Display: 854 x 480, Render: 854 x 480
+[03:34:57] [main/INFO] (net.minecraft.client.render.shader.ShadersRenderer) Display: 2560 x 1368, Render: 2560 x 1368
+[03:35:01] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Spawned new chunk save thread!
+[03:35:01] [main/INFO] (net.minecraft.client.render.colorizer.Colorizers) Using grass color from texture pack Default
+[03:35:01] [main/INFO] (net.minecraft.client.render.colorizer.Colorizers) Using water color from texture pack Default
+[03:35:01] [main/INFO] (net.minecraft.client.render.colorizer.Colorizers) Using stars color from texture pack Default
+[03:35:01] [main/INFO] (net.minecraft.client.render.colorizer.Colorizers) Using oak color from texture pack Default
+[03:35:01] [main/INFO] (net.minecraft.client.render.colorizer.Colorizers) Using birch color from texture pack Default
+[03:35:01] [main/INFO] (net.minecraft.client.render.colorizer.Colorizers) Using pine color from texture pack Default
+[03:35:01] [main/INFO] (net.minecraft.client.render.colorizer.Colorizers) Using cherry color from texture pack Default
+[03:35:01] [main/INFO] (net.minecraft.client.render.colorizer.Colorizers) Using shrub color from texture pack Default
+[03:35:01] [main/INFO] (net.minecraft.client.render.colorizer.Colorizers) Using eucalyptus color from texture pack Default
+[03:35:01] [main/INFO] (net.minecraft.client.render.colorizer.Colorizers) Using cacao color from texture pack Default
+[03:35:01] [main/INFO] (net.minecraft.client.render.colorizer.Colorizers) Using thorn color from texture pack Default
+[03:35:01] [main/INFO] (net.minecraft.client.render.colorizer.Colorizers) Using palm color from texture pack Default
+[03:35:01] [main/INFO] (net.minecraft.client.render.colorizer.Colorizers) Updating Colorizers
+[03:35:01] [main/INFO] (net.minecraft.client.entity.player.PlayerLocal) logged in with session name: Player635
+[03:35:01] [GetSkinUrlThread 0/INFO] (net.minecraft.core.util.helper.GetSkinUrlThread) Loading Skin for Player Player635...
+[03:35:01] [main/INFO] (net.minecraft.client.render.LightmapHelper) Loading custom lightmap '/assets/minecraft/textures/environment/lightmap0.png'
+[03:35:01] [main/INFO] (net.minecraft.client.render.LightmapHelper) No custom lightmap found
+[03:35:01] [main/DEBUG] (FabricLoader/Mixin) Mixing models.BlockColorDispatcherMixin from halplibe.mixins.json into net.minecraft.client.render.block.color.BlockColorDispatcher
+[03:35:01] [main/DEBUG] (FabricLoader/Mixin) Renaming synthetic method lambda$addQueuedModels$0(Lturniplabs/halplibe/util/ModelEntrypoint;)V to md72b016$halplibe$lambda$addQueuedModels$0$0 in halplibe.mixins.json:models.BlockColorDispatcherMixin from mod halplibe
+[03:35:01] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:models.BlockColorDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:06] [GetSkinUrlThread 0/INFO] (net.minecraft.core.util.helper.GetSkinUrlThread) Loading Skin for Player Player635...
+[03:35:11] [GetSkinUrlThread 0/INFO] (net.minecraft.core.util.helper.GetSkinUrlThread) Loading Skin for Player Player635...
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: Placing blocks
+[03:37:12] [main/INFO] (net.minecraft.client.Minecraft) Stopping!
+[03:37:12] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: 
+[03:37:12] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: SoundSystem shutting down...
+[03:37:12] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]:     Author: Paul Lamb, www.paulscode.com
+[03:37:12] [main/INFO] (net.minecraft.core.util.helper.LoggedPrintStream) [STDOUT]: 

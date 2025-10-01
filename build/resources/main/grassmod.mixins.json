@@ -4,6 +4,8 @@
     "package": "Yojin.grassmod.mixin",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
+      "ItemDyeMixin",
+      "ItemToolHoeMixin"
     ],
     "client": [
     ],

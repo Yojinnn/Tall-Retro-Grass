@@ -1,0 +1,165 @@
+[03:34:52] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 7.3_04 with Fabric Loader 0.15.6-bta.7
+[03:34:53] [main/INFO] (FabricLoader) Loading 8 mods:
+	- fabricloader 0.15.6-bta.7
+	- grassmod 1.0.0
+	- halplibe 5.2.4
+	- java 21
+	- legacy-lwjgl3 1.0.4
+	- minecraft 7.3.4
+	- mixinextras 0.3.2
+	- modmenu 3.0.0
+[03:34:53] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/novastorm93/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[03:34:53] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[03:34:53] [main/INFO] (halplibe) Config file name: halplibe.cfg
+[03:34:53] [main/INFO] (halplibe) Config file path: /home/novastorm93/Projects/Modding/BetterThanAdventure/Tall-Retro-Grass/run/config/halplibe.cfg
+[03:34:53] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[03:34:53] [main/INFO] (Minecraft) LWJGL version = 3.3.3-snapshot
+[03:34:53] [main/INFO] (halplibe) Config file name: grassmod.cfg
+[03:34:53] [main/INFO] (halplibe) Config file path: /home/novastorm93/Projects/Modding/BetterThanAdventure/Tall-Retro-Grass/run/config/grassmod.cfg
+[03:34:53] [main/INFO] (grassmod) Blocks initialized.
+[03:34:53] [main/INFO] (grassmod) Grass Mod initialized.
+[03:34:53] [main/INFO] (halplibe) HalpLibe initialized.
+[03:34:53] [main/INFO] (Minecraft) Using bundled let's encrypt certificates
+[03:34:54] [main/INFO] (Minecraft) Java Version: 21.0.8
+[03:34:54] [main/INFO] (Minecraft) [STDOUT]: If the game crashes with a message similar to 
+"Inconsistency detected by ld.so: dl-lookup.c: 111: check_match: Assertion `version->filename == NULL || ! _dl_name_match_p (version->filename, map)' failed!", 
+Either use Java 8 or 17 from Eclipse Adoptium!
+[03:34:54] [main/INFO] (Minecraft) [STDOUT]: GLFW Init
+[03:34:54] [main/INFO] (Minecraft) Resolution: 854 x 480
+[03:34:54] [main/INFO] (Minecraft) 2944 Translation Keys
+[03:34:54] [main/INFO] (Minecraft) 4.6 (Compatibility Profile) Mesa 25.2.3-arch1.2
+[03:34:54] [main/INFO] (Minecraft) AMD
+[03:34:54] [main/INFO] (Minecraft) AMD Radeon RX 6700 XT (radeonsi, navi22, LLVM 20.1.8, DRM 3.64, 6.16.8-arch2-1)
+[03:34:54] [main/INFO] (Minecraft) GL_ARB_framebuffer_object: true
+[03:34:54] [main/INFO] (Minecraft) GL_ARB_occlusion_query: true
+[03:34:54] [main/INFO] (Minecraft) GL_NV_fog_distance: true
+[03:34:54] [main/INFO] (Minecraft) Enable Shaders: true
+[03:34:54] [main/INFO] (Minecraft) [STDOUT]: MultiDraw disabled, using legacy terrain renderer
+[03:34:54] [main/INFO] (Minecraft) Reloading Shaders...
+[03:34:54] [main/INFO] (Minecraft) Drawing Loading Screen...
+[03:34:55] [main/INFO] (grassmod) Block Models initialized.
+[03:34:55] [main/INFO] (Minecraft) Drawing Loading Screen...
+[03:34:55] [main/INFO] (Minecraft) Initializing input
+[03:34:55] [main/INFO] (Minecraft) 0 controllers found!
+[03:34:55] [main/INFO] (Minecraft) Input done!
+[03:34:55] [main/INFO] (Minecraft) Setting up OpenGL values...
+[03:34:55] [main/INFO] (Minecraft) [STDOUT]: 
+[03:34:55] [main/INFO] (Minecraft) [STDOUT]: Starting up SoundSystem...
+[03:34:55] [Thread-1/INFO] (Minecraft) [STDOUT]: Initializing LWJGL OpenAL
+[03:34:55] [Thread-1/INFO] (Minecraft) [STDOUT]:     (The LWJGL3 binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[03:34:55] [Thread-1/INFO] (Minecraft) [STDOUT]: OpenAL initialized.
+[03:34:56] [main/INFO] (Minecraft) [STDOUT]: 
+[03:34:56] [main/INFO] (Minecraft) Drawing Loading Screen...
+[03:34:56] [main/INFO] (Minecraft) Active Texture Packs: 
+[03:34:56] [main/INFO] (Minecraft) Initializing Dynamic Textures...
+[03:34:56] [main/INFO] (Minecraft) Generating Mipmaps...
+[03:34:56] [main/INFO] (Minecraft) Generating Mipmaps...
+[03:34:56] [main/INFO] (Minecraft) Generating Mipmaps...
+[03:34:56] [main/INFO] (Minecraft) Generating Mipmaps...
+[03:34:56] [main/INFO] (Minecraft) Drawing Loading Screen...
+[03:34:56] [main/INFO] (Minecraft) Initializing Renderer...
+[03:34:56] [main/INFO] (Minecraft) Starting Resource Download Thread...
+[03:34:56] [Resource Download/INFO] (Minecraft) Downloading sounds...
+[03:34:56] [main/INFO] (Minecraft) Registered 23 recipes from /recipes/blast_furnace.json
+[03:34:56] [main/INFO] (Minecraft) Registered 24 recipes from /recipes/furnace.json
+[03:34:56] [main/INFO] (Minecraft) Registered 6 recipes from /recipes/trommel.json
+[03:34:56] [main/INFO] (Minecraft) Registered 487 recipes from /recipes/workbench.json
+[03:34:56] [main/INFO] (grassmod) Recipes initialized.
+[03:34:56] [main/INFO] (Minecraft) 32 item groups.
+[03:34:56] [main/INFO] (Minecraft) 544 recipes in 8 groups in 2 namespaces.
+[03:34:56] [main/INFO] (Minecraft) Drawing Loading Screen...
+[03:34:56] [main/INFO] (Minecraft) [STDOUT]: Change to Windowed
+[03:34:56] [main/INFO] (Minecraft) Display: 854 x 480, Render: 854 x 480
+[03:34:57] [main/INFO] (Minecraft) Display: 2560 x 1368, Render: 2560 x 1368
+[03:35:01] [main/INFO] (Minecraft) [STDOUT]: Spawned new chunk save thread!
+[03:35:01] [main/INFO] (Minecraft) Using grass color from texture pack Default
+[03:35:01] [main/INFO] (Minecraft) Using water color from texture pack Default
+[03:35:01] [main/INFO] (Minecraft) Using stars color from texture pack Default
+[03:35:01] [main/INFO] (Minecraft) Using oak color from texture pack Default
+[03:35:01] [main/INFO] (Minecraft) Using birch color from texture pack Default
+[03:35:01] [main/INFO] (Minecraft) Using pine color from texture pack Default
+[03:35:01] [main/INFO] (Minecraft) Using cherry color from texture pack Default
+[03:35:01] [main/INFO] (Minecraft) Using shrub color from texture pack Default
+[03:35:01] [main/INFO] (Minecraft) Using eucalyptus color from texture pack Default
+[03:35:01] [main/INFO] (Minecraft) Using cacao color from texture pack Default
+[03:35:01] [main/INFO] (Minecraft) Using thorn color from texture pack Default
+[03:35:01] [main/INFO] (Minecraft) Using palm color from texture pack Default
+[03:35:01] [main/INFO] (Minecraft) Updating Colorizers
+[03:35:01] [main/INFO] (Minecraft) logged in with session name: Player635
+[03:35:01] [GetSkinUrlThread 0/INFO] (Minecraft) Loading Skin for Player Player635...
+[03:35:01] [main/INFO] (Minecraft) Loading custom lightmap '/assets/minecraft/textures/environment/lightmap0.png'
+[03:35:01] [main/INFO] (Minecraft) No custom lightmap found
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:04] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:06] [GetSkinUrlThread 0/INFO] (Minecraft) Loading Skin for Player Player635...
+[03:35:11] [GetSkinUrlThread 0/INFO] (Minecraft) Loading Skin for Player Player635...
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:35:38] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:06] [main/INFO] (Minecraft) [STDOUT]: Placing blocks
+[03:37:12] [main/INFO] (Minecraft) Stopping!
+[03:37:12] [main/INFO] (Minecraft) [STDOUT]: 
+[03:37:12] [main/INFO] (Minecraft) [STDOUT]: SoundSystem shutting down...
+[03:37:12] [main/INFO] (Minecraft) [STDOUT]:     Author: Paul Lamb, www.paulscode.com
+[03:37:12] [main/INFO] (Minecraft) [STDOUT]: 
