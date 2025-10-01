@@ -27,7 +27,7 @@ public class GrassModel implements ModelEntrypoint {
 	@Override
 	public void initBlockModels(BlockModelDispatcher dispatcher) 	{
 
-		ModelHelper.setBlockModel(Retrotallgrass, () -> new BlockModelCrossedSquares<>(Retrotallgrass)
+		ModelHelper.setBlockModel(Retrotallgrass, () -> new BlockModelGrass<>(Retrotallgrass)
 			.setTex(0, MOD_ID + ":block/Tall_grass", Side.sides)
 		);
 
