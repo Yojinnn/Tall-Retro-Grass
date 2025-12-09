@@ -1,0 +1,75 @@
+[03:03:54] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 7.3_04 with Fabric Loader 0.15.6-bta.7
+[03:03:54] [main/WARN] (FabricLoader/GameProvider) Can't remove Log4J2 JNDI substitution Lookup: java.lang.RuntimeException: couldn't find JNDI lookup entry
+[03:03:54] [main/INFO] (FabricLoader) Loading 8 mods:
+	- fabricloader 0.15.6-bta.7
+	- grassmod 1.2
+	- halplibe 5.2.4
+	- java 22
+	- legacy-lwjgl3 1.0.4
+	- minecraft 7.3.4
+	- mixinextras 0.3.2
+	- modmenu 3.0.0
+[03:03:54] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Owner/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[03:03:54] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[03:03:55] [main/INFO] (halplibe) Config file name: halplibe.cfg
+[03:03:55] [main/INFO] (halplibe) Config file path: E:\AAA123\DESTOP2\Prism\instances\Rose SMP v7.1\.minecraft\mods\Tall-Retro-Grass-main\run\config\halplibe.cfg
+[03:03:55] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[03:03:55] [main/INFO] (Minecraft) LWJGL version = 3.3.3-snapshot
+[03:03:55] [main/INFO] (halplibe) Config file name: grassmod.cfg
+[03:03:55] [main/INFO] (halplibe) Config file path: E:\AAA123\DESTOP2\Prism\instances\Rose SMP v7.1\.minecraft\mods\Tall-Retro-Grass-main\run\config\grassmod.cfg
+[03:03:56] [main/INFO] (grassmod) Blocks initialized.
+[03:03:56] [main/INFO] (grassmod) Grass Mod initialized.
+[03:03:56] [main/INFO] (halplibe) HalpLibe initialized.
+[03:03:56] [main/INFO] (Minecraft) Using bundled let's encrypt certificates
+[03:04:00] [main/INFO] (Minecraft) Java Version: 22.0.2
+[03:04:00] [main/INFO] (Minecraft) [STDOUT]: GLFW Init
+[03:04:00] [main/INFO] (Minecraft) Resolution: 854 x 480
+[03:04:00] [main/INFO] (Minecraft) 2944 Translation Keys
+[03:04:00] [main/INFO] (Minecraft) 4.6.0 Compatibility Profile Context 25.5.1.250226
+[03:04:00] [main/INFO] (Minecraft) ATI Technologies Inc.
+[03:04:00] [main/INFO] (Minecraft) AMD Radeon(TM) Graphics
+[03:04:01] [main/INFO] (Minecraft) GL_ARB_framebuffer_object: true
+[03:04:01] [main/INFO] (Minecraft) GL_ARB_occlusion_query: true
+[03:04:01] [main/INFO] (Minecraft) GL_NV_fog_distance: false
+[03:04:01] [main/INFO] (Minecraft) Enable Shaders: true
+[03:04:01] [main/INFO] (Minecraft) [STDOUT]: MultiDraw disabled, using legacy terrain renderer
+[03:04:01] [main/INFO] (Minecraft) Reloading Shaders...
+[03:04:01] [main/INFO] (Minecraft) Drawing Loading Screen...
+[03:04:03] [main/INFO] (grassmod) Block Models initialized.
+[03:04:03] [main/INFO] (Minecraft) Drawing Loading Screen...
+[03:04:03] [main/INFO] (Minecraft) Initializing input
+[03:04:03] [main/INFO] (Minecraft) 0 controllers found!
+[03:04:03] [main/INFO] (Minecraft) Input done!
+[03:04:03] [main/INFO] (Minecraft) Setting up OpenGL values...
+[03:04:03] [main/INFO] (Minecraft) [STDOUT]: 
+[03:04:03] [main/INFO] (Minecraft) [STDOUT]: Starting up SoundSystem...
+[03:04:04] [Thread-1/INFO] (Minecraft) [STDOUT]: Initializing LWJGL OpenAL
+[03:04:04] [Thread-1/INFO] (Minecraft) [STDOUT]:     (The LWJGL3 binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[03:04:04] [Thread-1/INFO] (Minecraft) [STDOUT]: OpenAL initialized.
+[03:04:04] [main/INFO] (Minecraft) [STDOUT]: 
+[03:04:04] [main/INFO] (Minecraft) Drawing Loading Screen...
+[03:04:04] [main/INFO] (Minecraft) Active Texture Packs: 
+[03:04:04] [main/INFO] (Minecraft) Initializing Dynamic Textures...
+[03:04:04] [main/INFO] (Minecraft) Generating Mipmaps...
+[03:04:04] [main/INFO] (Minecraft) Generating Mipmaps...
+[03:04:04] [main/INFO] (Minecraft) Generating Mipmaps...
+[03:04:04] [main/INFO] (Minecraft) Generating Mipmaps...
+[03:04:05] [main/INFO] (Minecraft) Drawing Loading Screen...
+[03:04:05] [main/INFO] (Minecraft) Initializing Renderer...
+[03:04:05] [main/INFO] (Minecraft) Starting Resource Download Thread...
+[03:04:05] [Resource Download/INFO] (Minecraft) Downloading sounds...
+[03:04:05] [main/INFO] (Minecraft) Registered 23 recipes from /recipes/blast_furnace.json
+[03:04:05] [main/INFO] (Minecraft) Registered 24 recipes from /recipes/furnace.json
+[03:04:05] [main/INFO] (Minecraft) Registered 6 recipes from /recipes/trommel.json
+[03:04:05] [main/INFO] (Minecraft) Registered 487 recipes from /recipes/workbench.json
+[03:04:05] [main/INFO] (grassmod) Recipes initialized.
+[03:04:05] [main/INFO] (Minecraft) 32 item groups.
+[03:04:05] [main/INFO] (Minecraft) 544 recipes in 8 groups in 2 namespaces.
+[03:04:05] [main/INFO] (Minecraft) Drawing Loading Screen...
+[03:04:05] [main/INFO] (Minecraft) [STDOUT]: Change to Windowed
+[03:04:05] [main/INFO] (Minecraft) Display: 854 x 480, Render: 854 x 480
+[03:05:03] [main/INFO] (Minecraft) Stopping!
+[03:05:03] [main/INFO] (Minecraft) [STDOUT]: 
+[03:05:03] [main/INFO] (Minecraft) [STDOUT]: SoundSystem shutting down...
+[03:05:03] [main/INFO] (Minecraft) [STDOUT]:     Author: Paul Lamb, www.paulscode.com
+[03:05:03] [main/INFO] (Minecraft) [STDOUT]: 
